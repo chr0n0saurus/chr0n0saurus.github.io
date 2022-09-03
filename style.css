@@ -1,0 +1,184 @@
+/*Egész oldalra vonatkozik*/
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: rgb(38, 138, 60);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(119, 81, 196);
+}
+
+/*Navigációs menü*/
+.bg-light{
+    background: rgb(39, 32, 53) !important;
+}
+
+.navbar{
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(38, 138, 60);
+    opacity: 0.90;
+}
+
+.stay {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.stay1{
+    text-align: right;
+    color: rgb(38, 138, 60);
+}
+
+.stay2{
+    text-align: left;
+}
+
+/*Legújabb albumról*/
+.album-main-section{
+    background: url("img/oddinarymain.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.70;
+}
+
+.album-main-box{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.main-title {
+    top: 50%;
+    font-size: 27px;
+}
+
+.main-description {
+    top: 55%;
+    font-size: 18px;
+}
+
+.main-release{
+    top: 60%;
+    font-size: 12px;
+}
+
+.main-studio{
+    top: 63%;
+    font-size: 10px;
+}
+
+.album-text-area{
+    background: rgb(39, 32, 53);
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(38, 138, 60);
+}
+
+.oddinary-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(38, 138, 60);
+}
+
+.albumrol{
+    display: block;
+    width : 90%;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.maniac{
+    background: url("img/maniac.jpg");
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mytext {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.mytext, .album-main-box {
+    padding: 20px;
+    background: rgba(39, 32, 53, 0.7);
+    backdrop-filter: blur(4px);
+}
+
+
+/*Hírek*/
+
+.skz-news{
+    color: rgb(39, 32, 53);
+}
+
+.skz-news:hover{
+    color: rgb(111, 207, 107);
+}
+
+.marketing-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+  }
+
+.news-section{
+    background: rgb(38, 138, 60);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(39, 32, 53);
+}
+
+/*Footer*/
+.btn-info{
+    background: rgb(63, 48, 94) !important;
+    border-color: rgb(63, 48, 94) !important;
+    color: rgb(46, 184, 42);
+}
+
+.btn-info:hover{
+    background: rgb(78, 56, 122) !important;
+    border-color: rgb(78, 56, 122) !important;
+    color: rgb(46, 184, 42);
+}
+
+/*Media Query*/
+@media screen and (max-width: 992px) {
+    .oddinary{
+        display: flex;
+        justify-content: center;
+    }
+}
